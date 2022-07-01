@@ -1,0 +1,85 @@
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+}
+
+
+.formWrapper {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.inputGroup {
+display: flex;
+flex-direction: column;
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.homePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinbtn{
+  background: rgb(13, 218, 13);
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinbtn:hover{
+ background: #2b824c;
+}
+
+.createInfo{
+  align-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  
+}
+
+.createNewBtn{
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover {
+  color: #368654;
+  border-color: #368654;
+}
